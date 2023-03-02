@@ -1,0 +1,17 @@
+.appBar {
+    padding: 10px;
+}
+
+.dividir {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkLogo {
+    display: inline-flex;
+    align-items: center;
+}
+
+.logoStore {
+    margin-right: 10px;
+}
