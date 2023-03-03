@@ -1,5 +1,6 @@
-import { Container, Avatar, Card, Grid, Typography, TextField, Button, Link } from '@mui/material'
+import { Container, Avatar, Card, Grid, Typography, TextField, Button } from '@mui/material'
 import styles from '@/styles/Register.module.css'
+import Link from 'next/link'
 
 export default function Register() {
     return (
@@ -57,7 +58,8 @@ export default function Register() {
                                 </Grid>
                             </Grid>
                             <Link
-                                href="/"
+                                className={styles.link}
+                                href="/login"
                                 variant="body1">
                                 ¿Ya tienes una cuenta?, Logueate aquí
                             </Link>

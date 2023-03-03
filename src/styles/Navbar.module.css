@@ -2,6 +2,11 @@
     padding: 10px;
 }
 
+.grow {
+    display: flex;
+    cursor: pointer;
+}
+
 .dividir {
     display: flex;
     justify-content: space-between;
@@ -10,8 +15,53 @@
 .linkLogo {
     display: inline-flex;
     align-items: center;
+    width: 100%;
 }
 
-.logoStore {
+.logoNavbar {
     margin-right: 10px;
+}
+
+.list {
+    width: 250px;
+}
+
+.listItem {
+    padding: 0
+}
+
+.linkNavbarMobile {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px 16px;
+}
+
+.listItemIcon {
+    min-width: 35px;
+}
+
+.sectionDesktop {
+    display: flex;
+}
+
+@media (max-width: 960px) {
+    .sectionDesktop {
+        display: none;
+    }
+}
+
+.sectionMobile {
+    display: none;
+}
+
+@media (max-width: 960px) {
+    .sectionMobile {
+        display: flex;
+    }
+    .grow {
+        display: flex;
+        justify-content: flex-end;
+        width: 75vw;
+    }
 }

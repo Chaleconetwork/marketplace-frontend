@@ -12,7 +12,7 @@ export default function Home() {
         <>
            {/* <h1>Componente App</h1> */}
            {/* <Login /> */}
-           <Register />
+           {/* <Register /> */}
         </>
     )
 }

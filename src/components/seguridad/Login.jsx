@@ -1,6 +1,7 @@
-import { Link, Avatar, Card, Container, Grid, Typography, TextField, Button } from "@mui/material";
+import { Avatar, Card, Container, Grid, Typography, TextField, Button } from "@mui/material";
 import PersonIcon from '@mui/icons-material/Person';
 import styles from '@/styles/Login.module.css'
+import Link from "next/link";
 
 export default function Login() {
 
@@ -43,7 +44,8 @@ export default function Login() {
                                 </Grid>
                             </Grid>
                             <Link
-                                href="/"
+                                className={styles.link}
+                                href="/register"
                                 variant="body1">
                                 ¿No tienes cuenta?, Registrate aquí
                             </Link>

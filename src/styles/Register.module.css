@@ -25,3 +25,11 @@
 .grid {
     margin-bottom: 20px;
 }
+
+.link {
+    margin-top: 8px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #1565c0;
+}
