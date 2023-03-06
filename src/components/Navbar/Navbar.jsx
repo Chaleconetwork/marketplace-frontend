@@ -24,7 +24,7 @@ export default function Navbar() {
                                 <Drawer open={open} onClose={() => setOpen(false)}>
                                     <div className={styles.list}>
                                         <List>
-                                            <ListItem onClick={() => setOpen(false)} className={styles.listItem} button>
+                                            <ListItem onClick={() => setOpen(false)} className={styles.listItem}>
                                                 <Link href='/login' className={styles.linkNavbarMobile} color='inherit' underline='none'>
                                                     <ListItemIcon className={styles.listItemIcon}>
                                                         <PersonIcon className={styles.logoStore} />

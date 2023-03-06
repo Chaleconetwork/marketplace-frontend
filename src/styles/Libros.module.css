@@ -1,0 +1,35 @@
+.container {
+    margin-top: 100px;
+}
+
+.card {
+    padding: 30px;
+}
+
+.avatar {
+    background-color: #1565c0;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 25px;
+}
+
+.icon {
+    font-size: 70px;
+}
+
+.form {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.grid {
+    margin-bottom: 20px;
+}
+
+.link {
+    margin-top: 8px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #1565c0;
+}
